@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+body{
+    
+}
+.animalia{
+    text-align: center;
+    text-shadow: white;
+    margin-top: 10px;
+    letter-spacing: 50px;
+    font-size: 15em;
+}
+.login_box{
+    font-family: cursive;
+    position:absolute;
+    background-color: whitesmoke;
+    display: flex;
+    border:#060608 solid .5px;  
+    padding: 70px 10% 50px 10px;
+    left: 34%;
+    transform: translate(50px,150px);
+    margin-bottom: 300px;
+    border-radius: 10px;
+    text-align: left;
+    height: 250px;
+    width: 225px;
+}
+.login_txt{
+    position: absolute;
+    bottom: 300px;
+    left: 0.3px;
+    font-family: 'Bangers',cursive;
+    text-align: center;
+    font-size: 300%;
+    padding-bottom: 5px;
+    border-style:solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    text-transform: uppercase;
+}
+.uname input{
+    height: 45px;
+    width: 360px;
+    padding: 0;
+    border-radius: 10px;
+    outline: none;
+}
+.uname span{
+    position: absolute;
+    padding: 10px 0 0 10px;
+    top:110px;
+}
+.pass input{
+    height:45px;
+    width: 360px;
+    padding: 0;
+    border-radius: 10px;
+}
+.pass label{
+    position: absolute;
+    padding: 10px 0 0 10px;
+    top:182px;
+}
+.fpass a{
+    text-decoration: 0;
+    position: absolute;
+    top: 260px;
+}
+.btn{
+    height: 100px;
+}
+.btn input{
+    position: absolute;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    top: 320px;
+    width: 360px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1em;
+    transition: all;
+    transition-duration: 3s;
+    /*overflow: none;
+    transform: translate(20px,50px);
+    text-transform: uppercase;
+    padding: 15px;
+    
+    width: 320px;
+    
+    transition-duration: 5s;
+    transition-delay: .5s;
+    transition-timing-function: ease;*/
+}
+.btn:hover input{
+    background-color: #060608;
+    color: white;
+    font-size: 1em;
+    width: 360px;
+}
+.sign_up{
+    position: absolute;
+    background-color: aquamarine;
+    margin: 1%;
+    font-family: tahoma;
+    font-size:50px;
+    padding-bottom: 20px;
+    text-align: center;
+    transform: translate(650px,550px);
+    letter-spacing: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
